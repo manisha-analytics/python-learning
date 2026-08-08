@@ -12,7 +12,17 @@ names.insert(1,names.pop())
 print(names)
 
 in this case single line run two ways  pop() removes the laste emlemt and retrive it than inset place the value in 
-1 index of names list so out put is [r'ram','arjun','krishna'
+1 index of names list so out put is ['ram','arjun','krishna']
+
+words=['apple','ant','bat','ball']
+count=0
+for i in  words:
+    for j in i:
+        if i.count('a')==1:
+            count+=i.count('a')
+print(count)
+
+in ever word check for 'a' in a count is equal to 1 ,count the lenth of word
 
                                      
                                      
